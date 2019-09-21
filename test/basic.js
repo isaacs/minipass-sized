@@ -73,3 +73,9 @@ t.test('projectiles', t => {
   })
   t.end()
 })
+
+t.test('exports SizeError class', t => {
+  t.isa(MPS.SizeError, 'function')
+  t.isa(MPS.SizeError.prototype, Error)
+  t.end()
+})

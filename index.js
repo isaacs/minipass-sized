@@ -59,4 +59,6 @@ class MinipassSized extends Minipass {
   }
 }
 
+MinipassSized.SizeError = SizeError
+
 module.exports = MinipassSized
