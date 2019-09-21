@@ -8,6 +8,9 @@ class SizeError extends Error {
     this.code = 'EBADSIZE'
 	  Error.captureStackTrace(this, this.constructor)
   }
+  get name () {
+    return 'SizeError'
+  }
 }
 
 class MinipassSized extends Minipass {

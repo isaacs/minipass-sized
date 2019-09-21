@@ -18,6 +18,7 @@ t.test('error if size exceeded', t => {
       found: 4,
       expect: 1,
       code: 'EBADSIZE',
+      name: 'SizeError',
     })
     t.end()
   })
@@ -29,6 +30,7 @@ t.test('error if size is not met', t => {
   t.throws(() => mps.end(), {
     message: 'Bad data size: expected 999 bytes, but got 0',
     found: 0,
+    name: 'SizeError',
     expect: 999,
     code: 'EBADSIZE',
   })
