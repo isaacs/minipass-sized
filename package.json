@@ -1,6 +1,6 @@
 {
   "name": "minipass-sized",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Minipass stream that raises an error if you get a different number of bytes than expected",
   "author": "Isaac Z. Schlueter <i@izs.me> (https://izs.me)",
   "license": "ISC",
